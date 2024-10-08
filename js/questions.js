@@ -1,6 +1,17 @@
 // creating an array and passing the number, questions, options, and answers
 let questions = [
   {
+    numb: 0,
+    question: "¿En una pelea todos contra todos quién ganaría?",
+    answer: "Juanjo (sin navaja)",
+    options: [
+      "Juanjo (sin navaja)",
+      "Emilio (con navaja)",
+      "Raúl (con una motosierra)",
+      "Ángel A. (con lunchakus)",
+    ],
+  },
+  {
     numb: 1,
     question: "¿Qué papel ejercen los servidores dentro de un dominio?",
     answer: "Ambas respuestas son correctas",
