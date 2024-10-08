@@ -924,4 +924,302 @@ let questions = [
         "Controlador de dominio."
     ]
 },
+
+{
+    numb: 1,
+    question: "¿Cuál de las siguientes ventajas corresponde a la Unidad Organizativa?",
+    answer: "Permite establecer una estructura lógica de nuestra organización y así simplificar su administración",
+    options: [
+        "Permite características específicas según la clase a la que pertenezca cada objeto",
+        "Permite que coexistan varios dominios dentro de un bosque",
+        "Permite varios controladores de dominio asociados",
+        "Permite establecer una estructura lógica de nuestra organización y así simplificar su administración"
+    ]
+},
+
+// Pregunta 2
+{
+    numb: 2,
+    question: "¿Pueden existir diferentes dominios dentro de un bosque?",
+    answer: "Si, y además cada uno de ellos con su propia colección de objetos y unidades organizativas",
+    options: [
+        "No, solo llega al nivel de árbol y con la condición de que tengan la misma colección de objetos y unidades organizativas",
+        "Si, y además cada uno de ellos con su propia colección de objetos y unidades organizativas",
+        "Si, pero con la condición de que tengan la misma colección de objetos y unidades organizativas",
+        "No, no es posible de ninguna de las maneras"
+    ]
+},
+
+// Pregunta 3
+{
+    numb: 3,
+    question: "¿Qué 2 pasos hay que realizar para instalar un dominio de Active Directory (AD) desde la interfaz gráfica de WS 2019?",
+    answer: "Instalar el rol de Servicios de dominio de AD y promocionarlo como controlador",
+    options: [
+        "Instalar el servidor de DNS y luego instalar el rol de Servicios de dominio",
+        "Instalar el rol de Servicios de dominio de AD e instalar el servidor DNS",
+        "Instalar el servidor de DNS y luego instalar el controlador de dominio",
+        "Instalar el rol de Servicios de dominio de AD y promocionarlo como controlador"
+    ]
+},
+
+// Pregunta 4
+{
+    numb: 4,
+    question: "¿En qué tamaño de redes resulta útil aplicar Active Directory?",
+    answer: "En redes pequeñas y redes de millones de elementos relacionados",
+    options: [
+        "Únicamente en redes grandes, pues la BBDD jerárquica necesita mucho espacio",
+        "Nada recomendable en redes pequeñas, pero sí muy recomendable en redes medianas o grandes",
+        "En redes pequeñas y redes de millones de elementos relacionados",
+        "Ninguna respuesta es correcta"
+    ]
+},
+
+// Pregunta 5
+{
+    numb: 5,
+    question: "Otra de las ventajas de Active Directory es",
+    answer: "Todas las respuestas son válidas",
+    options: [
+        "Administrar políticas y aplicar actualizaciones en toda la organización",
+        "Realizar operaciones de forma simultánea y centralizada",
+        "Todas las respuestas son válidas",
+        "Gestionar grupos a través de herramientas de administración"
+    ]
+},
+
+// Pregunta 6
+{
+    numb: 6,
+    question: "¿Cómo se denomina cada uno de los tipos de información almacenada en un ESQUEMA?",
+    answer: "ATRIBUTO",
+    options: [
+        "ATRIBUTO"
+    ]
+},
+
+// Pregunta 7
+{
+    numb: 7,
+    question: "¿Cuál de los siguientes roles del Maestro de Operaciones NO existe?",
+    answer: "Domain Confidence Master",
+    options: [
+        "Domain Confidence Master",
+        "Schema Master",
+        "Domain Name Master",
+        "RID Master"
+    ]
+},
+
+// Pregunta 8
+{
+    numb: 8,
+    question: "¿Sobre qué puede almacenar información Active Directory? Elige la respuesta más completa",
+    answer: "Sobre cualquier cosa u objeto que forme parte de la red",
+    options: [
+        "Sobre carpetas compartidas y lugares de almacenamiento",
+        "Principalmente sobre usuarios, grupos y equipos",
+        "Sobre usuarios, sitios y ordenadores",
+        "Sobre cualquier cosa u objeto que forme parte de la red"
+    ]
+},
+{
+    numb: 1,
+    question: "¿Cómo se denomina un grupo de ordenadores relacionados de manera lógica, y que no es necesario que coincidan físicamente? (en MAYÚSCULAS)",
+    answer: "SITIO",
+    options: [
+        "SITIO",
+        "DOMINIO",
+        "UNIDAD ORGANIZATIVA",
+        "GRUPO"
+    ]
+},
+{
+    numb: 2,
+    question: "En una relación de confianza establecida entre 2 dominios, ¿cuál es el dominio de salida?",
+    answer: "Es el dominio donde inicia sesión el usuario",
+    options: [
+        "Es el dominio donde inicia sesión el usuario",
+        "Es el dominio que confía y permite pasar al usuario de otro dominio",
+        "Es el dominio al que se quiere acceder en una relación de confianza unidireccional",
+        "Es el dominio al que se quiere acceder en una relación de confianza transitiva"
+    ]
+},
+{
+    numb: 3,
+    question: "Una Unidad Organizativa, ¿puede contener objetos de otros dominios?",
+    answer: "No, no es posible",
+    options: [
+        "No, no es posible",
+        "Sí, puede contener objetos de otros dominios",
+        "Depende de la configuración",
+        "Sí, pero solo ciertos tipos de objetos"
+    ]
+},
+{
+    numb: 4,
+    question: "¿Qué 2 pasos hay que realizar para degradar un controlador dominio de Active Directory (AD) desde la interfaz gráfica de WS 2019?",
+    answer: "Primero degradar el controlador de dominio, y después desinstalar los roles implicados",
+    options: [
+        "Primero desinstalar el rol de Servicios de dominio de AD y luego desinstalar el servidor DNS",
+        "Primero degradar el controlador de dominio, y después desinstalar los roles implicados",
+        "Primero desinstalar los roles implicados y luego degradar el controlador de dominio",
+        "Desinstalar el servidor de DNS y luego degradar el controlador de dominio"
+    ]
+},
+{
+    numb: 5,
+    question: "¿Qué tipo de relación de confianza es cuando los usuarios del dominio A puede acceder a los recursos del dominio B, pero los usuarios del dominio B no pueden acceder a los recursos del dominio A? (en MAYÚSCULAS)",
+    answer: "UNIDIRECCIONAL",
+    options: [
+        "UNIDIRECCIONAL",
+        "BIDIRECCIONAL",
+        "TRANSITIVA",
+        "TEMPORAL"
+    ]
+},
+{
+    numb: 6,
+    question: "La ventaja principal de Active Directory es",
+    answer: "Que permite iniciar sesión a cualquier usuario en cualquier cliente del dominio, u otro diferente",
+    options: [
+        "Que permite iniciar sesión a cualquier usuario en cualquier cliente del dominio, u otro diferente",
+        "Que permite iniciar sesión a cualquier usuario en cualquier cliente de su dominio",
+        "Que permite iniciar sesión al usuario Administrador en cualquier cliente del dominio, u otro diferente",
+        "Que permite iniciar sesión al usuario Administrador en cualquier cliente de su dominio"
+    ]
+},
+{
+    numb: 7,
+    question: "¿Pueden existir diferentes dominios dentro de un bosque?",
+    answer: "Si, y además cada uno de ellos con su propia colección de objetos y unidades organizativas",
+    options: [
+        "Si, y además cada uno de ellos con su propia colección de objetos y unidades organizativas",
+        "No, no es posible de ninguna de las maneras",
+        "No, solo llega al nivel de árbol y con la condición de que tengan la misma colección de objetos y unidades organizativas",
+        "Si, pero con la condición de que tengan la misma colección de objetos y unidades organizativas"
+    ]
+},
+{
+    numb: 8,
+    question: "El objetivo de un árbol en Active Directory (AD) es…",
+    answer: "Fragmentar los datos del AD para replicar solo las partes comunes y así ahorrar ancho de banda en la red",
+    options: [
+        "Fragmentar los datos del AD parar delimitar las políticas de seguridad y evitar problemas de acceso",
+        "Fragmentar los datos del AD para replicar solo las partes comunes y así ahorrar ancho de banda en la red",
+        "Ninguna respuesta es correcta",
+        "Jerarquizar los dominios para restringir los accesos de usuarios de niveles más bajos"
+    ]
+},
+{
+    numb: 9,
+    question: "¿Qué contiene un controlador de dominio?",
+    answer: "Contiene la BBDD de objetos del directorio para un determinado dominio",
+    options: [
+        "Contiene la BBDD de objetos del directorio para un determinado dominio",
+        "Ninguna respuesta es correcta",
+        "Contiene las Unidades Organizativas del directorio para un determinado dominio",
+        "Contiene los Esquemas jerárquicos del directorio para un determinado dominio"
+    ]
+},
+{
+    numb: 1,
+    question: "¿Cuál de las siguientes ventajas corresponde a la Unidad Organizativa?",
+    answer: "Simplifica la delegación de autoridad (completa o parcialmente) a otros usuarios o grupos",
+    options: [
+        "Permite que coexistan varios dominios dentro de un bosque",
+        "Permite varios controladores de dominio asociados",
+        "Permite características específicas según la clase a la que pertenezca cada objeto",
+        "Simplifica la delegación de autoridad (completa o parcialmente) a otros usuarios o grupos"
+    ]
+},
+{
+    numb: 2,
+    question: "¿Es posible que cada dominio se cree su propia jerarquía de unidades organizativas? Contesta con SI o NO (en MAYÚSCULAS)",
+    answer: "SI",
+    options: [
+        "SI",
+        "NO"
+    ]
+},
+{
+    numb: 3,
+    question: "Siglas de como se denomina también al Maestro de Operaciones en Active Directory (en MAYÚSCULAS)",
+    answer: "FSMO",
+    options: [
+        "FSMO",
+        "ADSI",
+        "UO",
+        "DC"
+    ]
+},
+{
+    numb: 4,
+    question: "¿Cuál de las siguientes ventajas corresponde a la Unidad Organizativa?",
+    answer: "Permite establecer una estructura lógica de nuestra organización y así simplificar su administración",
+    options: [
+        "Permite que coexistan varios dominios dentro de un bosque",
+        "Permite establecer una estructura lógica de nuestra organización y así simplificar su administración",
+        "Permite características específicas según la clase a la que pertenezca cada objeto",
+        "Permite varios controladores de dominio asociados"
+    ]
+},
+{
+    numb: 5,
+    question: "Un Directorio es…",
+    answer: "una lista detallada de objetos de los que se guarda información",
+    options: [
+        "una lista detallada de unidades organizativas de los que se guarda información",
+        "una lista detallada de usuarios y recursos de los que se guarda información",
+        "una lista detallada de objetos de los que se guarda información",
+        "una lista detallada de usuarios de los que se guarda información"
+    ]
+},
+{
+    numb: 6,
+    question: "¿Qué ocurre en un servidor de Windows Server automáticamente en el momento en que instalamos Active Directory?",
+    answer: "Dicho servidor se convierte en un controlador de dominio",
+    options: [
+        "Dicho servidor se convierte en un controlador de dominio",
+        "Dicho servidor pasa a tener un IP fija",
+        "Dicho servidor establece una relación de confianza bidireccional con sus clientes de la misma red",
+        "Dicho servidor tiene visibilidad en la red de Internet"
+    ]
+},
+{
+    numb: 7,
+    question: "¿Qué peculiaridad tiene un Directorio Activo?",
+    answer: "Los elementos almacenados en él pueden ser diferentes unos de otros",
+    options: [
+        "Los elementos almacenados en él pueden ser diferentes unos de otros",
+        "Guarda información sobre personas, empresas y entidades",
+        "Se basa en el concepto de Dominio que introdujo WS 2008",
+        "Se guarda la información en una BBDD no jerárquica"
+    ]
+},
+{
+    numb: 8,
+    question: "¿En qué consiste una relación de confianza en un dominio Active Directory? Elige la respuesta más completa.",
+    answer: "En un método de comunicación seguro entre dominios, árboles y bosques",
+    options: [
+        "En un método de comunicación seguro entre dominios, árboles y bosques",
+        "En un método de comunicación exclusivamente entre dominios",
+        "En un método de comunicación seguro entre dominios",
+        "En un método de comunicación exclusivo entre dominios y bosques"
+    ]
+},
+{
+    numb: 9,
+    question: "Siglas del conjunto de herramientas propio de Microsoft que permite el acceso a características de AD con una interfaz orientada a objetos (en MAYÚSCULAS)",
+    answer: "ADSI",
+    options: [
+        "ADSI",
+        "WAC",
+        "UO",
+        "FSMO"
+    ]
+}
+
+
 ]
